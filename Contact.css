@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#acc{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    color: beige;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+}
+header h1{
+    margin: 10px 0 0 15px;
+    font-size: 2.5em;
+    padding: 0;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+
+}
+header ul li{
+    list-style-type: none;
+    padding: 10px 15px;
+}
+header ul li a{
+    color: beige;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+    transition: 500ms;
+}
+header ul li:hover {
+    border-radius: 0;
+    box-shadow: 0 5px 40px #262626;
+}
+a[href="Contact.html"]{
+    text-decoration: underline;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+}
+section{
+    color: #262626;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section p{
+    font-size: 1.2em;
+    background-color: #262626;
+    color: beige;
+    padding: 15px 30px;
+    box-shadow: 0 15px 30px #262626;
+
+}
+main section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    color: beige;
+    padding: 100px 200px;
+    box-shadow: 0 15px 30px #262626;
+}
+section h2{
+    text-align: center;
+}
+section > form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+section > form input , textarea{
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #3f3f3f;
+    padding: 7px 15px;
+    color: beige;
+    margin: auto; margin-bottom: 20px;
+    border: none;
+    width: 60%;
+}
+input[value="Envoyer"]{
+    padding: 7px 15px;
+    background-color: beige;
+    color: #262626;
+}   
